@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+     <title>GAIA</title>
+     <meta charset="utf-8">
+     <link rel="icon" href="images/top01.png">
+     <link rel="shortcut icon" href="images/top01.png" />
+     <link rel="stylesheet" href="css/style.css">
+     <script src="js/jquery.js"></script>
+     <script src="js/jquery-migrate-1.1.1.js"></script>
+     <script src="js/jquery.equalheights.js"></script>
+     <script src="js/jquery.ui.totop.js"></script>
+     <script src="js/jquery.easing.1.3.js"></script>
+     <script>
+        $(document).ready(function(){
+          $( ".block1" ).mouseover(function() {
+            $(this).addClass( "blur" );
+          });
+          $( ".block1" ).mouseout(function() {
+            $(this).removeClass( "blur" );
+          });
+          $().UItoTop({ easingType: 'easeOutQuart' });
+        }) 
+     </script>
+     <!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+         </a>
+    <![endif]-->
+    <!--[if lt IE 9]>
+    
+      <script src="js/html5shiv.js"></script>
+      <link rel="stylesheet" media="screen" href="css/ie.css">
+    <![endif]-->
+    <!--[if lt IE 10]>
+      <link rel="stylesheet" media="screen" href="css/ie1.css">
+    <![endif]-->
+    
+     </head>
+     <body class="page1">
+
+<!--==============================header=================================-->
+ <header> 
+  <div class="container_12">
+   
+    <h1><a href="index.html"><img src="images/logo04.jpg" alt="Boo House"></a> </h1>
+    <div class="menu_block">
+
+
+    <nav id="bt-menu" class="bt-menu">
+        <a href="#" class="bt-menu-trigger"><span>Menu</span></a>
+        <ul>
+          <li class="current bt-icon "><a href="index.html">Compra</a></li>
+         <li class="bt-icon"><a href="index.html">Nosotros</a></li>
+         <li class="bt-icon"><a href="index.html">Productos</a></li>
+         <li class="bt-icon"><a href="index.html">Eventos</a></li>
+         <li class="bt-icon"><a href="index.html">Reservacion</a></li>
+         <li class="bt-icon"><a href="index.html">Contacto</a></li>
+        </ul>
+      </nav>
+    
+ <div class="clear"></div>
+</div>
+<div class="clear"></div>
+          </div>
+      </div>
+</header>
+
+<!--==============================Content=================================-->
+
+<div class="content"><div class="ic">More Website Templates @ TemplateMonster.com - December 02, 2013!</div>
+<a href="index.html" class="block1">
+  <img src="images/front001.png" alt="">
+  <span class="price"><span>Bubbles Waffles</span><span><small>$</small> 29.35</span><strong></strong></span>
+</a>
+<a href="index.html" class="block1">
+  <img src="images/front02.png" alt="">
+  <span class="price"><span>Cafe con amareto</span><span><small>$</small> 35.45</span><strong></strong></span>
+</a>
+<a href="index.html" class="block1">
+  <img src="images/front03.png" alt="">
+  <span class="price"><span>Brownie</span>
+<span><small>$</small> 50.10</span><strong></strong></span>
+</a>
+
+  <div class="container_12">
+    <div class="grid_12">
+      <h3>Productos mas Pedidos</h3>
+    </div>
+    <div class="grid_3">
+      <div class="box maxheight">
+        <img src="images/box01.jpg" alt="">
+        <div class="title">Milkshake</div>
+        Integer convallis orci vel mi nelaoreet, at ornare lorem consequat. Phasellus era nisl auctor vel veliterol. 
+        <br>
+        <a href="#">Comprar</a>
+      </div>
+    </div>
+    <div class="grid_3">
+      <div class="box maxheight">
+        <img src="images/box02.jpg" alt="">
+        <div class="title">Jugo Verde</div>
+        Benteger convallis orci veli elaoreet, at ornare loremo konsequat. Phasellus era nisl auctor vel veliterut. 
+        <br>
+        <a href="#">Comprar</a>
+      </div>
+    </div>
+    <div class="grid_3">
+      <div class="box maxheight">
+        <img src="images/box03.jpg" alt="">
+        <div class="title">Té</div>
+        Hrtolieger convallis omi tem aore, at ornare loren coate. Pasellus era nisl auctor vel veliterolsed pharetra. 
+        <br>
+        <a href="#">Comprar</a>
+      </div>
+    </div>
+    <div class="grid_3">
+      <div class="box maxheight">
+        <img src="images/box04.jpg" alt="">
+        <div class="title">Oreo Latte</div>
+        Convallis orci vel mi oreet, at kotornare lorem consequat. Sellus era nisl auctor vel veliterolvenenatis nulla. 
+        <br>
+        <a href="#">Comprar</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--==============================footer=================================-->
+
+<footer>    
+  <div class="container_12">
+    <div class="grid_6 prefix_3">
+      <a href="index.html" class="f_logo"><img src="images/biglogo.jpg" alt=""></a>
+      
+    </div>
+  </div>
+</footer>
+     <script>
+      $(document).ready(function(){ 
+         $(".bt-menu-trigger").toggle( 
+          function(){
+            $('.bt-menu').addClass('bt-menu-open'); 
+          }, 
+          function(){
+            $('.bt-menu').removeClass('bt-menu-open'); 
+          } 
+        ); 
+      }) 
+    </script>
+</body>
+</html>
